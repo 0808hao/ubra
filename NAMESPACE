@@ -1,0 +1,12 @@
+export(ubra_fit_2d_v2A2)
+export(run_ubra2d_v2A2_from_dat_harm)
+
+export(plot_ubra2d_scatter_v2A2)
+export(plot_ubra2d_tailrisk_v2A2)
+export(plot_ubra2d_theta_alpha_v2A2)
+export(plot_ubra2d_K_selection_v2A2)
+
+export(ubra_fit_4d)
+export(run_ubra4d_v2A2_from_dat_harm)
+
+importFrom(stats, lm, coef, sd, var, quantile, cor, cov, sigma, pnorm)

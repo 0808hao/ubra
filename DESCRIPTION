@@ -1,0 +1,26 @@
+Package: UBRA
+Type: Package
+Title: Unified Bayesian Risk Architecture (UBRA) for Genetic Risk Decomposition
+Version: 0.1.0
+Authors@R:
+    person("Hongdong", "Hao", email = "h294866@foxmail.com", role = c("aut", "cre"))
+Description: Implements the UBRA-2D v2-A.2 framework for decomposing Mendelian
+    randomization effects into latent genetic risk factors using mixture
+    regression, stability selection, and tail-risk metrics (VaR/CVaR).
+    The package is designed for robust genetic risk stratification beyond
+    traditional all-SNP Mendelian randomization.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+
+Imports:
+    stats,
+    flexmix,
+    mclust
+
+Suggests:
+    data.table,
+    ggplot2,
+    ggrepel
+
+RoxygenNote: 7.3.2
